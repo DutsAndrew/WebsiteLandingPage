@@ -17,19 +17,23 @@ body {
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .title {
   display: flex;
   flex-flow: row nowrap;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 900;
+  padding-left: 12px;
 }
 
 .links {
   display: flex;
   flex-flow: row nowrap;
-  margin: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  font-size: 12px;
 }
 
 .content {
@@ -41,24 +45,42 @@ body {
   background-color: #1F2937;
   color: white;
   display: flex;
-  width: auto;
+  width: 100%;
   flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .left-column {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  padding: 10px;
+  width: 50%;
 }
 
-.big-text, .small-text {
-  display: flex;
-  flex: 0;
-  flex-flow: column wrap;
-  flex-shrink: 100;
+.text-big {
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 8px;
+}
+
+.text-small {
+  font-size: 12px;
+  padding-bottom: 12px;
+}
+
+.signup-blue {
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  width: 200px;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.right-column {
+  width: 50%;
 }
 
 ul {
@@ -74,10 +96,8 @@ button {
 
 .img {
   display: flex;
-  flex-flow: row nowrap;
-  flex-grow: auto;
-  flex-shrink: auto;
   height: 300px;
   width: 150px;
-  gap: 8px;
+  gap: 100px;
+  padding-left: 50px;
 }
