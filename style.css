@@ -85,7 +85,36 @@ body {
 
 .box-2 {
   display: flex;
+  flex-flow: column nowrap;
+}
+
+.monthly-favorites {
+  display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 25px;
+}
+
+.menu-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.menu-img {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: auto;
+  flex-shrink: auto;
+  width: 300px;
+  height: 150px;
 }
 
 ul {
