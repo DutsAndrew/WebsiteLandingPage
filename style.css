@@ -93,9 +93,9 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 32px;
   font-weight: 900;
-  padding: 25px;
+  padding-top: 50px;
 }
 
 .menu-items {
@@ -105,7 +105,7 @@ body {
   align-items: center;
   padding-bottom: 16px;
   font-size: 12px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .menu-img {
@@ -115,6 +115,23 @@ body {
   flex-shrink: auto;
   width: 300px;
   height: 150px;
+}
+
+.box-3 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.quotes {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-size: 24px;
+  font-family: cursive;
+  font-style: italic;
+  background-color: #E5E7EB;
 }
 
 ul {
