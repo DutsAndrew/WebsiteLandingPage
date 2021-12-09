@@ -2,6 +2,10 @@ html, body {
   height: 100%;
 }
 
+img {
+  border-radius: 10px;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
@@ -80,7 +84,19 @@ body {
 }
 
 .right-column {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: auto;
   width: 50%;
+}
+
+.header-img {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 300px;
+  width: 150px;
+  gap: 100px;
+  padding-left: 50px;
 }
 
 .box-2 {
@@ -134,6 +150,21 @@ body {
   background-color: #E5E7EB;
 }
 
+.box-4 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: #3882F6;
+  border-radius: 5px;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -143,12 +174,4 @@ ul {
 
 button {
   max-width: 100px;
-}
-
-.img {
-  display: flex;
-  height: 300px;
-  width: 150px;
-  gap: 100px;
-  padding-left: 50px;
 }
