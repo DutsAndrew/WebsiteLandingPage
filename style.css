@@ -154,11 +154,10 @@ body {
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
-  flex: 1;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: white;
-  padding: 75px;
+  height: 300px;
 }
 
 .subscription {
@@ -168,8 +167,10 @@ body {
   border-radius: 5px;
   width: fit-content;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+  justify-content: space-between;
+  width: 50%;
+  padding: 40px;
+  gap: 50px;
 }
 
 .newsletter {
@@ -183,6 +184,22 @@ body {
   line-height: 1 ;
   margin-top: 0 ;
   margin-bottom: 0 ;
+  font-size: 16px;
+}
+
+.signup {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  color: white;
+  background-color: #3882F6;
+  border-color: white;
+  border-bottom-color: white;
+  border-radius: 5px;
+}
+
+.footer {
+  
 }
 
 ul {
