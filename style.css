@@ -199,7 +199,12 @@ body {
 }
 
 .footer {
-  
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 ul {
